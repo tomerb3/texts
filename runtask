@@ -1,1 +1,1 @@
-helpme
+setprenv branch=PLATMAIN-16797-new-kinesis repo=itc-activity-ingest-stack env=clean1 commit=yes
