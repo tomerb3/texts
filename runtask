@@ -1,1 +1,1 @@
-setprenv branch=dummy_20240814144623 repo=itc-services-stack env=ci1pr commit=yes
+setprenv commit=yes branch=dummy_20240814163457 repo=itc-services-stack env=ci1pr
