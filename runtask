@@ -1,1 +1,1 @@
-setprenv branch=PLATMAIN-16797-new-kinesis repo=itc-activity-ingest-stack env=clean1 commit=yes
+setprenv branch=PLATMAIN-16929-remove-old-canada-redis repo=itc-services-stack env=ci1pr commit=yes
