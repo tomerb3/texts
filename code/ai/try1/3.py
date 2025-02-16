@@ -3,39 +3,6 @@ import argparse
 import os
 from openai import OpenAI
 
-client = OpenAI(
-    base_url="https://api.aimlapi.com/v1",
-    api_key="7344b1a12e2c482687f9ebe0143a6435",
-)
-
-def aiask(diff):
-#        print(diff_output)
-        response = client.chat.completions.create(
-            model="gpt-4o",
-            messages=[
-                {
-                    "role": "system",
-                    "content": "You are an AI assistant who knows everything.",
-                },
-                {
-                    "role": "user",
-                    "content":  f"""
-                            Generate a concise, one-line git commit message in conventional commit format 
-                            based on these changes. Focus on the main changes and impact.
-                            The message should follow this pattern: 
-                            [type]: [description] (max 72 characters)
-    
-                            Diff:
-                            {diff[:4000]}  # Truncate to avoid token limits
-                           """
-    
-                },
-            ],
-        )
-        message = response.choices[0].message.content
-        return message
-
-
 def get_git_diff(repo_path):
     try:
         os.chdir(repo_path)
@@ -88,8 +55,7 @@ if __name__ == "__main__":
             exit(0)
             
        # message = generate_commit_message(diff)
-        message = aiask(diff)
-        print(f"{message}")
+        print(f"{diff}")
         
     except Exception as e:
         print(f"Error: {str(e)}")
