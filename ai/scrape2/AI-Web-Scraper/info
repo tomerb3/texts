@@ -1,0 +1,26 @@
+https://github.com/Zachdj27/AI-Web-Scraper/tree/main
+
+
+pv
+
+sudo apt-get install chromium-chromedriver  
+sudo ls -ltr /usr/lib/chromium-browser/chromedriver
+
+cd /home/baum/src/.texts/ai/scrape2/AI-Web-Scraper
+mv chromedriver 1chromedriver
+ln -s /usr/lib/chromium-browser/chromedriver .
+
+pip install -r requ*
+
+streamlit run main.py
+
+open website http://172.24.206.58:8501/
+write the webgite : https://www.name.com
+
+then ask ai question
+
+need to check if it works
+if works
+need to automate it without url
+
+
