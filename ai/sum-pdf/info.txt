@@ -1,0 +1,13 @@
+https://www.youtube.com/watch?v=Gn64NNr3bqU&ab_channel=debugverse
+
+https://github.com/debugverse/debugverse-youtube/blob/main/summarize_huge_documents_kmeans/src/kmeans/main.py
+
+https://www.youtube.com/watch?v=LUttsadgSEY&ab_channel=TechWithTim
+
+ollama run llama3.1:latest    
+
+  pip install langchain_ollama
+  pip install langchain
+  pip install -U langchain-community
+  pip install sentence-transformers
+  pip install pypdf
