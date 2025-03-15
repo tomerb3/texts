@@ -1,0 +1,17 @@
+https://www.youtube.com/watch?v=BLyGDTNdad0&ab_channel=MervinPraison
+
+ollama dont have api
+so i will use llm studio to have api  https://lmstudio.ai/
+   install it on windows
+
+
+ollama pull gemma2
+lm studio  nomic  search 
+
+why use graph rag  ?  it can gett data from several places - it will create graph for all of that then his result will be better 
+
+it will use "input" folder with all the text files inside
+
+
+
+vector stock market with ai - https://www.youtube.com/watch?v=WECz7idar8o&ab_channel=FahdMirza
