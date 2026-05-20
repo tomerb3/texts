@@ -1,0 +1,49 @@
+{
+  "reminders": [
+    {
+      "id": "rem-001",
+      "title": "Team Standup Meeting",
+      "description": "Daily standup with the development team",
+      "time": "09:30 AM",
+      "priority": "high",
+      "icon": "👥",
+      "color": "blue"
+    },
+    {
+      "id": "rem-002",
+      "title": "Code Review Deadline",
+      "description": "Review PRs for PLATMAIN-22519 before EOD",
+      "time": "05:00 PM",
+      "priority": "critical",
+      "icon": "📝",
+      "color": "red"
+    },
+    {
+      "id": "rem-003",
+      "title": "Deployment Window",
+      "description": "Production deployment scheduled - monitor logs",
+      "time": "02:00 PM",
+      "priority": "high",
+      "icon": "🚀",
+      "color": "purple"
+    },
+    {
+      "id": "rem-004",
+      "title": "Security Patch Update",
+      "description": "Apply latest security patches to staging environment",
+      "time": "11:00 AM",
+      "priority": "medium",
+      "icon": "🔒",
+      "color": "amber"
+    },
+    {
+      "id": "rem-005",
+      "title": "Weekly Report",
+      "description": "Submit weekly progress report to project manager",
+      "time": "04:30 PM",
+      "priority": "low",
+      "icon": "📊",
+      "color": "green"
+    }
+  ]
+}
