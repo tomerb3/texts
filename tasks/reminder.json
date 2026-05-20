@@ -47,35 +47,8 @@
     },
     {
       "id": "rem-006",
-      "title": "test55",
-      "description": "hhhh tomer",
-      "time": null,
-      "priority": "medium",
-      "icon": "📌",
-      "color": "blue"
-    },
-    {
-      "id": "rem-007",
-      "title": "test66",
-      "description": "hhhh tomer",
-      "time": null,
-      "priority": "medium",
-      "icon": "📌",
-      "color": "blue"
-    },
-    {
-      "id": "rem-008",
-      "title": "test 77",
-      "description": "hhhh tomer",
-      "time": null,
-      "priority": "medium",
-      "icon": "📌",
-      "color": "blue"
-    },
-    {
-      "id": "rem-009",
-      "title": "hhhh tomer",
-      "description": "hhhh tomer",
+      "title": "test55 test66 test 77 hhhh tomer",
+      "description": "test55 test66 test 77 hhhh tomer",
       "time": null,
       "priority": "medium",
       "icon": "📌",
