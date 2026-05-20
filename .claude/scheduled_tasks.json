@@ -1,0 +1,15 @@
+{
+  "tasks": [
+    {
+      "id": "b1f13640",
+      "cron": "*/1 * * * *",
+      "prompt": "! /Users/tbaum/src/texts/auto-pull.sh",
+      "createdAt": 1779301618805,
+      "lastFiredAt": 1779301802373,
+      "recurring": true,
+      "createdBySessionId": "7c9337a5-28a3-453c-a229-13484158a8db",
+      "createdByPid": 43219,
+      "createdByProcStart": "Wed May 20 18:23:55 2026"
+    }
+  ]
+}
