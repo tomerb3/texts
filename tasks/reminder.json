@@ -62,6 +62,15 @@
       "priority": "medium",
       "icon": "📌",
       "color": "blue"
+    },
+    {
+      "id": "rem-008",
+      "title": "regent-vcs/re_gent",
+      "description": "https://github.com/regent-vcs/re_gent",
+      "time": null,
+      "priority": "medium",
+      "icon": "📌",
+      "color": "blue"
     }
   ]
 }
