@@ -80,6 +80,15 @@
       "priority": "medium",
       "icon": "📌",
       "color": "blue"
+    },
+    {
+      "id": "rem-010",
+      "title": "Setup n8n webhook to check 2MFA from Jenkins",
+      "description": "n8n webhook to check 2MFA from Jenkins",
+      "time": null,
+      "priority": "medium",
+      "icon": "🔐",
+      "color": "blue"
     }
   ]
 }
