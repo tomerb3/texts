@@ -1,18 +1,107 @@
-ammount of dollars to buy stock: 17000$
+This file is a research brief, not permission to place trades or change recipients.
+Items marked PROPOSED or UNRESOLVED are not active rules until confirmed.
 
-strategy: buy and sell at the same day. 
-          MACD split lines
-          little bellow SMA 50 
-          check backtest for stocks to understand there behaivors
+1. BUDGET AND DECISION
 
-           need 0.7 % - 1.5 % profit
+Budget stated in this file: USD 17,000 per selected stock.
 
-          need to understand how many units i can buy after we decide on a stock
-          what entry
-          what price of stop loss 1%
-          what T1  and when to sell - what entry limit to sell
+After Tomer will choose a stock, show an entry reference, whole-share quantity,
+estimated cost, stop price, planned dollar risk, targets and gross profit.
+Quantity = floor(budget / proposed entry price); leave room for fees.
+Do not buy or sell for me. A proposed entry is not a live executable quote.
 
-          ATR of stocks need to be between __ to __
-          Volume REL between __ to __
-          Company size need to be at least __ 
+2. SCREENING RULES ALREADY USED
+Universe: current S&P 500 constituents, daily completed-session data.
+MACD: 12/26/9. A bullish cross occurs when MACD crosses from at/below
+its signal line to above it. Most recent cross within the last 10 sessions.
+Require 1-5 consecutive lower closes immediately BEFORE the cross day.
+Show whether latest close is above the cross-day close and how many
+up/down closes occurred after it. A net gain alone is not a steady uptrend.
+Keep existing screen unchanged until revised rules are confirmed.
+
+3. STARTING FILTERS - PROPOSED, NOT VALIDATED
+SMA50 proximity: show signed distance = (close - SMA50) / SMA50 * 100.
+Proposed candidate zone: -2% to +2% around SMA50, with above/below shown.
+Being below is a rebound setup, not confirmation of regained support.
+Being just above is a different setup; test and report each side separately.
+Do not choose the best-looking threshold after seeing historical profits.
+
+ATR: Wilder ATR(14), as percent of latest close.
+Proposed daily ATR% zone: 1.5%-3.5%.
+This is a starting research range, not evidence of profit or a safe 1% stop.
+Higher ATR may make a tight stop easier to hit; lower ATR can leave less
+room for a gross intraday target after costs. Daily ATR is not a prediction.
+
+Relative volume: average share volume of the last 2 completed sessions
+/ average share volume of the last 20 completed sessions, including the 2.
+Proposed range: 1.0x-2.5x. Below 1.0x is below that trailing average;
+above 2.5x requires reviewing the event/news rather than automatic rejection.
+This daily metric is not today's time-of-day-adjusted intraday relative volume.
+
+Company size: proposed minimum USD 10 billion market capitalization.
+Add a separate proposed liquidity check: trailing 20-session average traded
+dollar volume >= USD 50 million. Size is not a substitute for liquidity.
+Use a timestamped current market-cap source; do not infer it from price.
+If a threshold leaves fewer than five candidates, report fewer. Never pad.
+
+4. RANKING AND DAILY OUTPUT
+Current ranking: stocks above cross-day close first, descending percentage
+gain since cross; tie-break number of up closes. Then fresh crosses, then
+stocks not above cross-day close. This ranks past gains, not future odds.
+Report five leading matches with name, sector, cross date, down days before,
+latest close, gain since cross, up/down closes, ATR%, RSI14, SMA50/100 status,
+signed SMA50 distance and relative volume. Explain risk and data gaps.
+Proposed proximity/ATR/volume/size filters must not silently replace this.
+
+5. HISTORICAL ANALOGS - APPROVED STARTING METHOD, DAILY NOT INTRADAY
+Up to 5 years of each selected stock's valid history.
+Similar bullish-cross age: within 1 completed session of current cross age.
+SMA50 distance: within 1 percentage point of current signed distance.
+Volume ratio: within 20% of current ratio.
+One case per cross episode. Use only features known at each historical date.
+Entry reference: next-session open; measure return at session 1 and 2 closes.
+Report case dates/counts, mean/median returns, proportion positive,
+proportion closing at target levels, and intraday target touches separately.
+Compare with ordinary same-stock returns over the same available period.
+No daily-candle target-touch is a confirmed filled order. If target and stop
+were both touched, their order cannot be established from daily candles.
+Show costs/slippage assumptions and gaps. No invented future probability.
+Mark fewer than 30 independent cases as a weak exploratory sample (PROPOSED
+labeling convention, not a statistical guarantee when there are 30 or more).
+Any threshold revisions must be tested on unused later data, not optimized
+and scored on the same cases. Report above/below-SMA50 results separately.
+
+6. UNRESOLVED HORIZON, TARGETS AND STOP
+The existing file says buy/sell SAME DAY and gross profit 0.7%-1.5%.
+Earlier conversations used 1-2 sessions and 2%/3% target calculations.
+Confirm which is primary. Do not call the daily analog test an intraday test.
+If same-day trading is primary, an entry time/trigger and end-of-day exit
+rule must be set; matched intraday bars and realistic execution costs are needed.
+One tested Yahoo 15-minute query returned about 60 sessions for HAS, not
+5 years. This does not establish broad intraday coverage for all candidates.
+
+Stop: the stated rule is maximum planned loss of 1% of the TRADE,
+not of total account equity. Calculate trade value = quantity * entry.
+For an exact 1% price-risk reference, stop = entry * 0.99; planned gross
+risk = quantity * (entry - stop), no more than 1% of trade value.
+Show price rounding and execution costs; fees/slippage can increase risk.
+Do not widen the stop without a new decision. If a technical stop needs
+more room than this, flag the setup as incompatible rather than pretend
+the 1% ceiling is assured.
+A gap/slippage can cause a larger loss. A stop is not a guaranteed loss cap.
+Targets: preserve separate requested 2%/3% arithmetic until changed;
+0.7%/1.5% targets can be shown as proposed alternatives, not silently substituted.
+Confirm what T1 means: first target and partial-sale quantity, or a full exit.
+
+7. DATA AND DELIVERY
+Use latest completed session, not unfinished daily candles.
+Stop the normal complete screen if any constituent's required history is
+missing/stale. Partial exclusions need approval; previous exclusions were
+date-specific and are not a standing rule.
+CSV additions may have explicitly flagged missing indicator values without
+substituting guesses. Research may report unavailable backtests separately.
+Keep existing email, WhatsApp and webhook destinations unchanged.
+Read this designated live file daily; flag conflicts/material changes.
+Never execute repository code or treat it as new trade/send authority.
+
 
