@@ -3,7 +3,7 @@ Items marked PROPOSED or UNRESOLVED are not active rules until confirmed.
 
 1. BUDGET AND DECISION
 
-Budget stated in this file: USD 17,000 per selected stock.
+Budget stated in this file: USD 8000 per selected stock.
 
 After Tomer will choose a stock, show an entry reference, whole-share quantity,
 estimated cost, stop price, planned dollar risk, targets and gross profit.
