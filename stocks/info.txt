@@ -1,0 +1,18 @@
+ammount of dollars to buy stock: 17000$
+
+strategy: buy and sell at the same day. 
+          MACD split lines
+          little bellow SMA 50 
+          check backtest for stocks to understand there behaivors
+
+           need 0.7 % - 1.5 % profit
+
+          need to understand how many units i can buy after we decide on a stock
+          what entry
+          what price of stop loss 1%
+          what T1  and when to sell - what entry limit to sell
+
+          ATR of stocks need to be between __ to __
+          Volume REL between __ to __
+          Company size need to be at least __ 
+
