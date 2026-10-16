@@ -18,13 +18,18 @@
     },
     {
       "ticker": "TQQQ",
-      "enabled": false,
+      "enabled": true,
       "threshold": 70
     },
     {
       "ticker": "USD",
-      "enabled": false,
+      "enabled": true,
       "threshold": 82
+    },
+    {
+      "ticker": "UPRO",
+      "enabled": true,
+      "threshold": 145
     }
   ]
 }
