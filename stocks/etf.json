@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "currency": "USD",
+  "check_frequency": "once_per_us_trading_day",
+  "check_time": {
+    "timezone": "America/New_York",
+    "time": "10:05"
+  },
+  "session": "regular",
+  "condition": "session_low_at_or_below",
+  "coverage": "previous_completed_session_and_current_session_so_far",
+  "repeat_alert": "once_per_etf_per_touch_session",
+  "etfs": [
+    {
+      "ticker": "SPY",
+      "enabled": true,
+      "threshold": 760
+    },
+    {
+      "ticker": "TQQQ",
+      "enabled": false,
+      "threshold": 70
+    },
+    {
+      "ticker": "USD",
+      "enabled": false,
+      "threshold": 82
+    }
+  ]
+}
+
