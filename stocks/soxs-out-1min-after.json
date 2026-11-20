@@ -1,0 +1,416 @@
+{
+  "status": "WAIT",
+  "timeframes": [
+    {
+      "timeframe_minutes": 1,
+      "status": "FAIL",
+      "closed_at_utc": "2026-11-19T15:11:00+00:00",
+      "last_close": 51.47999954223633,
+      "checks": {
+        "macd_above_signal": true,
+        "histogram_rising": true,
+        "st1_up": false,
+        "st1_slope": false,
+        "st2_up": false,
+        "st2_slope": false
+      },
+      "metrics": {
+        "macd": -0.382981017659489,
+        "signal": -0.5360095650136486,
+        "histogram": 0.1530285473541596,
+        "supertrend": [
+          {
+            "atr_period": 10,
+            "multiplier": 1,
+            "value": 50.89999155656888,
+            "slope_pct_per_bar": -0.20183463184461567
+          },
+          {
+            "atr_period": 11,
+            "multiplier": 2,
+            "value": 51.85199281777366,
+            "slope_pct_per_bar": 0.0
+          }
+        ]
+      },
+      "closed_at_israel": "2026-11-19T17:11:00+02:00"
+    },
+    {
+      "timeframe_minutes": 2,
+      "status": "FAIL",
+      "closed_at_utc": "2026-11-19T15:10:00+00:00",
+      "last_close": 51.290000915527344,
+      "checks": {
+        "macd_above_signal": true,
+        "histogram_rising": true,
+        "st1_up": false,
+        "st1_slope": false,
+        "st2_up": false,
+        "st2_slope": false
+      },
+      "metrics": {
+        "macd": -1.5006042349833422,
+        "signal": -1.7487974344390105,
+        "histogram": 0.2481931994556683,
+        "supertrend": [
+          {
+            "atr_period": 10,
+            "multiplier": 1,
+            "value": 51.530237934218235,
+            "slope_pct_per_bar": -0.4549904909900076
+          },
+          {
+            "atr_period": 11,
+            "multiplier": 2,
+            "value": 52.38207151819837,
+            "slope_pct_per_bar": 0.0
+          }
+        ]
+      },
+      "closed_at_israel": "2026-11-19T17:10:00+02:00"
+    },
+    {
+      "timeframe_minutes": 5,
+      "status": "FAIL",
+      "closed_at_utc": "2026-11-19T15:10:00+00:00",
+      "last_close": 51.290000915527344,
+      "checks": {
+        "macd_above_signal": false,
+        "histogram_rising": true,
+        "st1_up": false,
+        "st1_slope": false,
+        "st2_up": false,
+        "st2_slope": false
+      },
+      "metrics": {
+        "macd": -2.31638283866247,
+        "signal": -1.6842682579305053,
+        "histogram": -0.6321145807319648,
+        "supertrend": [
+          {
+            "atr_period": 10,
+            "multiplier": 1,
+            "value": 52.10631886442948,
+            "slope_pct_per_bar": -0.09541413602699618
+          },
+          {
+            "atr_period": 11,
+            "multiplier": 2,
+            "value": 53.396491997447924,
+            "slope_pct_per_bar": -0.06680285275702318
+          }
+        ]
+      },
+      "closed_at_israel": "2026-11-19T17:10:00+02:00"
+    }
+  ],
+  "symbol": "SOXS",
+  "source": "https://query1.finance.yahoo.com/v8/finance/chart/SOXS?range=5d&interval=1m&includePrePost=false",
+  "candle_5m_internals": {
+    "status": "OK",
+    "opened_at_utc": "2026-11-19T15:05:00+00:00",
+    "closed_at_utc": "2026-11-19T15:10:00+00:00",
+    "currency": "USD",
+    "open": 50.47999954223633,
+    "high": 51.290000915527344,
+    "low": 50.209999084472656,
+    "close": 51.290000915527344,
+    "color": "GREEN",
+    "body_signed_usd": 0.8100013732910156,
+    "body_absolute_usd": 0.8100013732910156,
+    "range_usd": 1.0800018310546875,
+    "green_minutes": 4,
+    "red_minutes": 1,
+    "doji_minutes": 0,
+    "color_changes_ignoring_doji": 2,
+    "up_bodies_total_usd": 0.9864959716796875,
+    "down_bodies_total_usd": 0.3149986267089844,
+    "open_to_low_usd": 0.2700004577636719,
+    "low_to_final_close_usd": 1.0800018310546875,
+    "open_to_high_usd": 0.8100013732910156,
+    "high_to_final_close_usd": 0.0,
+    "largest_1m_range": {
+      "opened_at_utc": "2026-11-19T15:05:00+00:00",
+      "closed_at_utc": "2026-11-19T15:06:00+00:00",
+      "open": 50.47999954223633,
+      "high": 50.93989944458008,
+      "low": 50.209999084472656,
+      "close": 50.81999969482422,
+      "color": "GREEN",
+      "body_signed_usd": 0.3400001525878906,
+      "range_usd": 0.7299003601074219,
+      "true_range_usd": 0.7299003601074219,
+      "atr_1m_usd": 0.6406476656945571,
+      "open_to_low_usd": 0.2700004577636719,
+      "low_to_close_usd": 0.6100006103515625,
+      "open_to_high_usd": 0.45989990234375,
+      "high_to_close_usd": 0.11989974975585938,
+      "opened_at_israel": "2026-11-19T17:05:00+02:00",
+      "closed_at_israel": "2026-11-19T17:06:00+02:00"
+    },
+    "largest_1m_open_to_low": {
+      "opened_at_utc": "2026-11-19T15:06:00+00:00",
+      "closed_at_utc": "2026-11-19T15:07:00+00:00",
+      "open": 50.869998931884766,
+      "high": 51.16999816894531,
+      "low": 50.529998779296875,
+      "close": 50.55500030517578,
+      "color": "RED",
+      "body_signed_usd": -0.3149986267089844,
+      "range_usd": 0.6399993896484375,
+      "true_range_usd": 0.6399993896484375,
+      "atr_1m_usd": 0.6406013602626913,
+      "open_to_low_usd": 0.3400001525878906,
+      "low_to_close_usd": 0.02500152587890625,
+      "open_to_high_usd": 0.2999992370605469,
+      "high_to_close_usd": 0.6149978637695312,
+      "opened_at_israel": "2026-11-19T17:06:00+02:00",
+      "closed_at_israel": "2026-11-19T17:07:00+02:00"
+    },
+    "largest_1m_open_to_high": {
+      "opened_at_utc": "2026-11-19T15:09:00+00:00",
+      "closed_at_utc": "2026-11-19T15:10:00+00:00",
+      "open": 50.83000183105469,
+      "high": 51.290000915527344,
+      "low": 50.7400016784668,
+      "close": 51.290000915527344,
+      "color": "GREEN",
+      "body_signed_usd": 0.45999908447265625,
+      "range_usd": 0.5499992370605469,
+      "true_range_usd": 0.5499992370605469,
+      "atr_1m_usd": 0.6141549785455425,
+      "open_to_low_usd": 0.09000015258789062,
+      "low_to_close_usd": 0.5499992370605469,
+      "open_to_high_usd": 0.45999908447265625,
+      "high_to_close_usd": 0.0,
+      "opened_at_israel": "2026-11-19T17:09:00+02:00",
+      "closed_at_israel": "2026-11-19T17:10:00+02:00"
+    },
+    "atr_period": 14,
+    "atr_method": "Wilder RMA on closed RTH 1m TR; includes overnight gaps",
+    "atr_1m_usd_at_5m_close": 0.6141549785455425,
+    "atr_unavailable_reason": null,
+    "minutes": [
+      {
+        "opened_at_utc": "2026-11-19T15:05:00+00:00",
+        "closed_at_utc": "2026-11-19T15:06:00+00:00",
+        "open": 50.47999954223633,
+        "high": 50.93989944458008,
+        "low": 50.209999084472656,
+        "close": 50.81999969482422,
+        "color": "GREEN",
+        "body_signed_usd": 0.3400001525878906,
+        "range_usd": 0.7299003601074219,
+        "true_range_usd": 0.7299003601074219,
+        "atr_1m_usd": 0.6406476656945571,
+        "open_to_low_usd": 0.2700004577636719,
+        "low_to_close_usd": 0.6100006103515625,
+        "open_to_high_usd": 0.45989990234375,
+        "high_to_close_usd": 0.11989974975585938,
+        "opened_at_israel": "2026-11-19T17:05:00+02:00",
+        "closed_at_israel": "2026-11-19T17:06:00+02:00"
+      },
+      {
+        "opened_at_utc": "2026-11-19T15:06:00+00:00",
+        "closed_at_utc": "2026-11-19T15:07:00+00:00",
+        "open": 50.869998931884766,
+        "high": 51.16999816894531,
+        "low": 50.529998779296875,
+        "close": 50.55500030517578,
+        "color": "RED",
+        "body_signed_usd": -0.3149986267089844,
+        "range_usd": 0.6399993896484375,
+        "true_range_usd": 0.6399993896484375,
+        "atr_1m_usd": 0.6406013602626913,
+        "open_to_low_usd": 0.3400001525878906,
+        "low_to_close_usd": 0.02500152587890625,
+        "open_to_high_usd": 0.2999992370605469,
+        "high_to_close_usd": 0.6149978637695312,
+        "opened_at_israel": "2026-11-19T17:06:00+02:00",
+        "closed_at_israel": "2026-11-19T17:07:00+02:00"
+      },
+      {
+        "opened_at_utc": "2026-11-19T15:07:00+00:00",
+        "closed_at_utc": "2026-11-19T15:08:00+00:00",
+        "open": 50.650001525878906,
+        "high": 50.970001220703125,
+        "low": 50.470001220703125,
+        "close": 50.79499816894531,
+        "color": "GREEN",
+        "body_signed_usd": 0.14499664306640625,
+        "range_usd": 0.5,
+        "true_range_usd": 0.5,
+        "atr_1m_usd": 0.6305584059582133,
+        "open_to_low_usd": 0.18000030517578125,
+        "low_to_close_usd": 0.3249969482421875,
+        "open_to_high_usd": 0.31999969482421875,
+        "high_to_close_usd": 0.1750030517578125,
+        "opened_at_israel": "2026-11-19T17:07:00+02:00",
+        "closed_at_israel": "2026-11-19T17:08:00+02:00"
+      },
+      {
+        "opened_at_utc": "2026-11-19T15:08:00+00:00",
+        "closed_at_utc": "2026-11-19T15:09:00+00:00",
+        "open": 50.790000915527344,
+        "high": 50.93000030517578,
+        "low": 50.459999084472656,
+        "close": 50.83150100708008,
+        "color": "GREEN",
+        "body_signed_usd": 0.041500091552734375,
+        "range_usd": 0.470001220703125,
+        "true_range_usd": 0.470001220703125,
+        "atr_1m_usd": 0.6190900355828498,
+        "open_to_low_usd": 0.3300018310546875,
+        "low_to_close_usd": 0.3715019226074219,
+        "open_to_high_usd": 0.1399993896484375,
+        "high_to_close_usd": 0.09849929809570312,
+        "opened_at_israel": "2026-11-19T17:08:00+02:00",
+        "closed_at_israel": "2026-11-19T17:09:00+02:00"
+      },
+      {
+        "opened_at_utc": "2026-11-19T15:09:00+00:00",
+        "closed_at_utc": "2026-11-19T15:10:00+00:00",
+        "open": 50.83000183105469,
+        "high": 51.290000915527344,
+        "low": 50.7400016784668,
+        "close": 51.290000915527344,
+        "color": "GREEN",
+        "body_signed_usd": 0.45999908447265625,
+        "range_usd": 0.5499992370605469,
+        "true_range_usd": 0.5499992370605469,
+        "atr_1m_usd": 0.6141549785455425,
+        "open_to_low_usd": 0.09000015258789062,
+        "low_to_close_usd": 0.5499992370605469,
+        "open_to_high_usd": 0.45999908447265625,
+        "high_to_close_usd": 0.0,
+        "opened_at_israel": "2026-11-19T17:09:00+02:00",
+        "closed_at_israel": "2026-11-19T17:10:00+02:00"
+      }
+    ],
+    "limitations": "1m OHLC cannot reveal high/low order within a minute, ticks, speed, or the exact intraminute path. Excursions are not ATR or standard deviation. Descriptive only; no new screen rules.",
+    "opened_at_israel": "2026-11-19T17:05:00+02:00",
+    "closed_at_israel": "2026-11-19T17:10:00+02:00"
+  },
+  "last_red_macd_5m": {
+    "status": "OK",
+    "definition": "RED = histogram < 0; zero excluded; not price candle color or a four-color palette",
+    "timeframe_minutes": 5,
+    "requested_count": 5,
+    "found_count": 5,
+    "order": "newest first; not necessarily consecutive; no 30-minute cutoff",
+    "search_from_utc": "2026-11-13T14:30:00+00:00",
+    "through_close_utc": "2026-11-19T15:10:00+00:00",
+    "includes_prior_sessions": true,
+    "fast": 12,
+    "slow": 26,
+    "signal_period": 9,
+    "histogram_units": "USD price units, not percent or candle range",
+    "bars": [
+      {
+        "opened_at_utc": "2026-11-19T15:05:00+00:00",
+        "closed_at_utc": "2026-11-19T15:10:00+00:00",
+        "histogram_signed": -0.6321145807319648,
+        "histogram_absolute_size": 0.6321145807319648,
+        "macd": -2.31638283866247,
+        "signal": -1.6842682579305053,
+        "opened_at_israel": "2026-11-19T17:05:00+02:00",
+        "closed_at_israel": "2026-11-19T17:10:00+02:00"
+      },
+      {
+        "opened_at_utc": "2026-11-19T15:00:00+00:00",
+        "closed_at_utc": "2026-11-19T15:05:00+00:00",
+        "histogram_signed": -0.7751184908699604,
+        "histogram_absolute_size": 0.7751184908699604,
+        "macd": -2.301358103617474,
+        "signal": -1.5262396127475137,
+        "opened_at_israel": "2026-11-19T17:00:00+02:00",
+        "closed_at_israel": "2026-11-19T17:05:00+02:00"
+      },
+      {
+        "opened_at_utc": "2026-11-19T14:55:00+00:00",
+        "closed_at_utc": "2026-11-19T15:00:00+00:00",
+        "histogram_signed": -0.8337739213423212,
+        "histogram_absolute_size": 0.8337739213423212,
+        "macd": -2.166233911372345,
+        "signal": -1.3324599900300236,
+        "opened_at_israel": "2026-11-19T16:55:00+02:00",
+        "closed_at_israel": "2026-11-19T17:00:00+02:00"
+      },
+      {
+        "opened_at_utc": "2026-11-19T14:50:00+00:00",
+        "closed_at_utc": "2026-11-19T14:55:00+00:00",
+        "histogram_signed": -0.9583864250284213,
+        "histogram_absolute_size": 0.9583864250284213,
+        "macd": -2.0824029347228645,
+        "signal": -1.1240165096944432,
+        "opened_at_israel": "2026-11-19T16:50:00+02:00",
+        "closed_at_israel": "2026-11-19T16:55:00+02:00"
+      },
+      {
+        "opened_at_utc": "2026-11-19T14:45:00+00:00",
+        "closed_at_utc": "2026-11-19T14:50:00+00:00",
+        "histogram_signed": -1.0525494712823642,
+        "histogram_absolute_size": 1.0525494712823642,
+        "macd": -1.9369693747197019,
+        "signal": -0.8844199034373377,
+        "opened_at_israel": "2026-11-19T16:45:00+02:00",
+        "closed_at_israel": "2026-11-19T16:50:00+02:00"
+      }
+    ],
+    "search_from_israel": "2026-11-13T16:30:00+02:00",
+    "through_close_israel": "2026-11-19T17:10:00+02:00"
+  },
+  "candle_5m_comparison": {
+    "status": "OK",
+    "currency": "USD",
+    "target_closed_at_utc": "2026-11-19T15:10:00+00:00",
+    "baseline_definition": "Three complete prior supplied RTH sessions; current session and target excluded; not 14 bars and not same-time-of-day matched",
+    "sessions_requested": 3,
+    "sessions": [
+      {
+        "session_date_new_york": "2026-11-16",
+        "session_open_utc": "2026-11-16T14:30:00+00:00",
+        "session_close_utc": "2026-11-16T21:00:00+00:00",
+        "bar_count": 78,
+        "session_open_israel": "2026-11-16T16:30:00+02:00",
+        "session_close_israel": "2026-11-16T23:00:00+02:00"
+      },
+      {
+        "session_date_new_york": "2026-11-17",
+        "session_open_utc": "2026-11-17T14:30:00+00:00",
+        "session_close_utc": "2026-11-17T21:00:00+00:00",
+        "bar_count": 78,
+        "session_open_israel": "2026-11-17T16:30:00+02:00",
+        "session_close_israel": "2026-11-17T23:00:00+02:00"
+      },
+      {
+        "session_date_new_york": "2026-11-18",
+        "session_open_utc": "2026-11-18T14:30:00+00:00",
+        "session_close_utc": "2026-11-18T21:00:00+00:00",
+        "bar_count": 78,
+        "session_open_israel": "2026-11-18T16:30:00+02:00",
+        "session_close_israel": "2026-11-18T23:00:00+02:00"
+      }
+    ],
+    "baseline_bar_count": 234,
+    "baseline_from_utc": "2026-11-16T14:30:00+00:00",
+    "baseline_through_close_utc": "2026-11-18T21:00:00+00:00",
+    "mean_absolute_body_usd": 0.4644357730180789,
+    "mean_range_usd": 0.9020786611442893,
+    "mean_true_range_usd": 0.9333482889028696,
+    "true_range_baseline_unavailable_reason": null,
+    "body_vs_mean_body_ratio": 1.744054658036613,
+    "range_vs_mean_range_ratio": 1.1972368681071583,
+    "target_true_range_usd": 1.0800018310546875,
+    "tr_vs_prior_sessions_mean_tr_ratio": 1.1571262773987683,
+    "wilder_atr_5m_period": 14,
+    "wilder_atr_5m_before_target_usd": 1.253222369582264,
+    "tr_vs_prior_atr14_ratio": 0.8617798862102055,
+    "atr_unavailable_reason": null,
+    "atr_definition": "Wilder ATR14 on prior closed RTH 5m candles only, excluding target; SMA seed; not a multi-day average; overnight gaps included",
+    "limitations": "Descriptive ratios only; no threshold or trade rule added. All supplied session schedules/provider adjustments caveats apply.",
+    "target_closed_at_israel": "2026-11-19T17:10:00+02:00",
+    "baseline_from_israel": "2026-11-16T16:30:00+02:00",
+    "baseline_through_close_israel": "2026-11-18T23:00:00+02:00"
+  }
+}
